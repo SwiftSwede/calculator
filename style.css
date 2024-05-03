@@ -1,0 +1,84 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container {
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+#screen {
+  padding: 25px;
+  background: darkkhaki;
+  border-radius: 5px;
+  color: white;
+  justify-content: right;
+}
+
+.btn {
+  flex: auto;
+  /* width: 30px;
+  height: 18px; */
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.number {
+  background: darkred;
+}
+
+.number:active {
+  background: rgba(139, 0, 0, 0.702);
+}
+
+.operator {
+  background: darkblue;
+}
+
+.operator:active {
+  background: rgba(0, 0, 139, 0.694);
+}
+
+#decimal {
+  background: darkorange;
+}
+
+#decimal:active {
+  background: rgba(255, 140, 0, 0.698);
+}
+
+#equals {
+  background: darkgreen;
+}
+
+#equals:active {
+  background: rgba(0, 100, 0, 0.703);
+}
+
+#clear {
+  background: darkgray;
+}
+
+#clear:active {
+  background: rgba(169, 169, 169, 0.699);
+}
+
+#delete {
+  background: darkgray;
+}
+
+#delete:active {
+  background: rgba(169, 169, 169, 0.699);
+}
